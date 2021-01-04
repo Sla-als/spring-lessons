@@ -17,7 +17,7 @@ public class ProductDao {
             //findById(3L);
             //deleteById(2L);
             //findAll();
-            saveOrUpdate(new Product(1L,"Moloko+",300));
+            saveOrUpdate(new Product(1L, "Moloko+", 300));
             //saveOrUpdate(new Product("Bread",100));
         } catch (Exception e) {
             e.printStackTrace();
@@ -42,7 +42,7 @@ public class ProductDao {
 //     +   (Product findById(Long id),
 //     +   List<Product> findAll(),
 //     +   void deleteById(Long id),
-//     -   Product saveOrUpdate(Product product))
+//     +   Product saveOrUpdate(Product product))
 
     private static Product findById(Long id) {
         try (Session session = factory.getCurrentSession()) {
@@ -75,31 +75,17 @@ public class ProductDao {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
             List<Product> items = session.createQuery("from Product ").getResultList();
-
-
-//                SimpleItem simpleItem = session.get(SimpleItem.class, 1L);
-//                simpleItem.setPrice(10000);
-//                //simpleItem.setPrice(10);
-//                session.getTransaction().commit();
-
-
-
             if (p.getId() != null) {  //        Update
                 for (int i = 0; i < items.size(); i++) {
                     if (items.get(i).getId() == p.getId()) {
-
-                        Product product = session.get(Product.class,p.getId());
-                        System.out.println(product);
-                        System.out.println(p);// молоко
+                        Product product = session.get(Product.class, p.getId());
                         product.setPrice(p.getPrice());
                         product.setTitle(p.getTitle());
-
-                        //session.save(p);
                         session.getTransaction().commit();
                         return p;
                     }
                 }
-            } //        Save
+            }
             session.save(p);
             return p;
         }
