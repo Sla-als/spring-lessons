@@ -13,7 +13,7 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.linked_objects.BottomlessBox"/>
-        <mapping class="com.flamexander.hibernate.linked_objects.Thing"/>
+        <mapping class="com.geekbrains.hibernate.linked_objects.BottomlessBox"/>
+        <mapping class="com.geekbrains.hibernate.linked_objects.Thing"/>
     </session-factory>
 </hibernate-configuration>

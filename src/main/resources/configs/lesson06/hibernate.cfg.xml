@@ -13,7 +13,7 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.one_to_many_and_back.University"/>
-        <mapping class="com.flamexander.hibernate.one_to_many_and_back.Student"/>
+        <mapping class="com.geekbrains.hibernate.lesson06.Product"/>
+        <mapping class="com.geekbrains.hibernate.lesson06.Buyer"/>
     </session-factory>
 </hibernate-configuration>

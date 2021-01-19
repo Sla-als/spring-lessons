@@ -13,7 +13,7 @@
         <property name="show_sql">true</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.one_to_one.Employee"/>
-        <mapping class="com.flamexander.hibernate.one_to_one.EmployeeDetails"/>
+        <mapping class="com.geekbrains.hibernate.one_to_one.Employee"/>
+        <mapping class="com.geekbrains.hibernate.one_to_one.EmployeeDetails"/>
     </session-factory>
 </hibernate-configuration>

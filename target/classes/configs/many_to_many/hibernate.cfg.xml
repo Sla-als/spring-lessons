@@ -13,7 +13,7 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.many_to_many.Book"/>
-        <mapping class="com.flamexander.hibernate.many_to_many.Reader"/>
+        <mapping class="com.geekbrains.hibernate.many_to_many.Book"/>
+        <mapping class="com.geekbrains.hibernate.many_to_many.Reader"/>
     </session-factory>
 </hibernate-configuration>

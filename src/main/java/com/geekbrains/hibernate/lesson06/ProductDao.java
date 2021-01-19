@@ -1,24 +1,22 @@
-package com.flamexander.hibernate.crud;
+package com.geekbrains.hibernate.lesson06;
 
-import com.flamexander.hibernate.PrepareDataApp;
+import com.geekbrains.hibernate.PrepareDataApp;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import javax.sound.midi.Soundbank;
 import java.util.List;
 
 public class ProductDao {
     private static SessionFactory factory;
 
+
     public static void main(String[] args) {
         try {
             init();
-            //findById(3L);
+            //System.out.println(findById(3L));
             //deleteById(2L);
-            //findAll();
-            saveOrUpdate(new Product(1L,"Moloko+",300));
-            //saveOrUpdate(new Product("Bread",100));
+            System.out.println(findAll());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -28,21 +26,15 @@ public class ProductDao {
 
     private static void init() {
         PrepareDataApp.forcePrepareData();
-        factory = new Configuration()
-                .configure("configs/crud/hibernate.cfg.xml")
+         factory = new Configuration()
+                .configure("configs/lesson06/hibernate.cfg.xml")
                 .buildSessionFactory();
+
     }
 
     private static void shutdown() {
         factory.close();
     }
-
-//    Создайте класс ProductDao и реализуйте в нем логику выполнения CRUD-операций
-//    над сущностью Product
-//     +   (Product findById(Long id),
-//     +   List<Product> findAll(),
-//     +   void deleteById(Long id),
-//     -   Product saveOrUpdate(Product product))
 
     private static Product findById(Long id) {
         try (Session session = factory.getCurrentSession()) {
@@ -56,7 +48,7 @@ public class ProductDao {
     public static List<Product> findAll() {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
-            List<Product> items = session.createQuery("from Product ").getResultList();
+            List<Product> items = session.createQuery("from Product").getResultList();
             session.getTransaction().commit();
             return items;
         }
@@ -74,32 +66,18 @@ public class ProductDao {
     public static Product saveOrUpdate(Product p) {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
-            List<Product> items = session.createQuery("from Product ").getResultList();
-
-
-//                SimpleItem simpleItem = session.get(SimpleItem.class, 1L);
-//                simpleItem.setPrice(10000);
-//                //simpleItem.setPrice(10);
-//                session.getTransaction().commit();
-
-
-
+            List<Product> items = session.createQuery("from Product").getResultList();
             if (p.getId() != null) {  //        Update
                 for (int i = 0; i < items.size(); i++) {
                     if (items.get(i).getId() == p.getId()) {
-
-                        Product product = session.get(Product.class,p.getId());
-                        System.out.println(product);
-                        System.out.println(p);// молоко
-                        product.setPrice(p.getPrice());
+                        Product product = session.get(Product.class, p.getId());
+                        product.setCost(p.getCost());
                         product.setTitle(p.getTitle());
-
-                        //session.save(p);
                         session.getTransaction().commit();
                         return p;
                     }
                 }
-            } //        Save
+            }
             session.save(p);
             return p;
         }

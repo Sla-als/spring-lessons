@@ -13,6 +13,6 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.lifecycle.AliveBean"/>
+        <mapping class="com.geekbrains.hibernate.lifecycle.AliveBean"/>
     </session-factory>
 </hibernate-configuration>

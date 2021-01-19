@@ -13,6 +13,6 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.locking.LockingItem"/>
+        <mapping class="com.geekbrains.hibernate.locking.LockingItem"/>
     </session-factory>
 </hibernate-configuration>

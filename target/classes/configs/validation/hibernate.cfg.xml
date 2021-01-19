@@ -13,6 +13,6 @@
         <property name="show_sql">false</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.validation.ValidationBean"/>
+        <mapping class="com.geekbrains.hibernate.validation.ValidationBean"/>
     </session-factory>
 </hibernate-configuration>

@@ -13,7 +13,7 @@
         <property name="show_sql">true</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.cascade.Product"/>
-        <mapping class="com.flamexander.hibernate.cascade.Order"/>
+        <mapping class="com.geekbrains.hibernate.cascade.Product"/>
+        <mapping class="com.geekbrains.hibernate.cascade.Order"/>
     </session-factory>
 </hibernate-configuration>

@@ -13,7 +13,7 @@
         <property name="show_sql">true</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="com.flamexander.hibernate.composed_key.Citizen"/>
-        <mapping class="com.flamexander.hibernate.composed_key.Passport"/>
+        <mapping class="com.geekbrains.hibernate.composed_key.Citizen"/>
+        <mapping class="com.geekbrains.hibernate.composed_key.Passport"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,4 +1,4 @@
-package com.flamexander.hibernate;
+package com.geekbrains.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
