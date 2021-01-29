@@ -1,5 +1,4 @@
-package ru.geekbrains.spring.model;
-
+package ru.geekbrains.happy.market.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,5 +20,4 @@ public class Product {
 
     @Column(name = "price")
     private int price;
-
 }

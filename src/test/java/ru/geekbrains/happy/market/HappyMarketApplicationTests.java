@@ -1,10 +1,10 @@
-package ru.geekbrains.spring;
+package ru.geekbrains.happy.market;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Lesson07ApplicationTests {
+class HappyMarketApplicationTests {
 
 	@Test
 	void contextLoads() {
