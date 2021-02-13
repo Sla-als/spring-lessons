@@ -7,13 +7,18 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import ru.geekbrains.happy.market.beans.JwtTokenUtil;
+import ru.geekbrains.happy.market.configs.SecurityConfig;
 import ru.geekbrains.happy.market.dto.JwtRequest;
 import ru.geekbrains.happy.market.dto.JwtResponse;
+import ru.geekbrains.happy.market.dto.UserDto;
 import ru.geekbrains.happy.market.exceptions_handling.MarketError;
+import ru.geekbrains.happy.market.model.User;
 import ru.geekbrains.happy.market.services.UserService;
 
 @RestController
@@ -34,4 +39,9 @@ public class AuthController {
         String token = jwtTokenUtil.generateToken(userDetails);
         return ResponseEntity.ok(new JwtResponse(token));
     }
+
+    @PostMapping("/register")
+    public User createUser(@RequestBody User userDto) {
+       return userService.saveUser(userDto);
+}
 }

@@ -24,6 +24,8 @@ public class Cart {
     private List<OrderItem> items;
     private int totalPrice;
 
+    private String address;
+
     @PostConstruct
     public void init() {
         this.items = new ArrayList<>();
