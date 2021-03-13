@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.WebApplicationContext;
 import ru.geekbrains.happy.market.exceptions_handling.ResourceNotFoundException;
 import ru.geekbrains.happy.market.model.OrderItem;
-import ru.geekbrains.happy.market.model.Product;
+import ru.geekbrains.happy.market.model.ProductEntity;
 import ru.geekbrains.happy.market.services.ProductService;
 
 import javax.annotation.PostConstruct;
@@ -33,13 +33,13 @@ public class Cart {
 
     public void addToCart(Long id) {
         for (OrderItem o : items) {
-            if (o.getProduct().getId().equals(id)) {
+            if (o.getProductEntity().getId().equals(id)) {
                 o.incrementQuantity();
                 recalculate();
                 return;
             }
         }
-        Product p = productService.findProductById(id).orElseThrow(() -> new ResourceNotFoundException("Unable to find product with id: " + id + " (add to cart)"));
+        ProductEntity p = productService.findProductById(id).orElseThrow(() -> new ResourceNotFoundException("Unable to find product with id: " + id + " (add to cart)"));
         OrderItem orderItem = new OrderItem(p);
         items.add(orderItem);
         recalculate();

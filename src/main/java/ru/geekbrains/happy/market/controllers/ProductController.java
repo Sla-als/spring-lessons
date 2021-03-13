@@ -2,22 +2,14 @@ package ru.geekbrains.happy.market.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.happy.market.dto.ProductDto;
-import ru.geekbrains.happy.market.exceptions_handling.MarketError;
 import ru.geekbrains.happy.market.exceptions_handling.ResourceNotFoundException;
-import ru.geekbrains.happy.market.model.Product;
-import ru.geekbrains.happy.market.repositories.ProductRepository;
+import ru.geekbrains.happy.market.model.ProductEntity;
 import ru.geekbrains.happy.market.repositories.specifications.ProductSpecifications;
 import ru.geekbrains.happy.market.services.ProductService;
-
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/products")
@@ -44,14 +36,14 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Product saveNewProduct(@RequestBody Product product) {
-        product.setId(null);
-        return productService.saveOrUpdate(product);
+    public ProductEntity saveNewProduct(@RequestBody ProductEntity productEntity) {
+        productEntity.setId(null);
+        return productService.saveOrUpdate(productEntity);
     }
 
     @PutMapping
-    public Product updateProduct(@RequestBody Product product) {
-        return productService.saveOrUpdate(product);
+    public ProductEntity updateProduct(@RequestBody ProductEntity productEntity) {
+        return productService.saveOrUpdate(productEntity);
     }
 
     @DeleteMapping("/{id}")

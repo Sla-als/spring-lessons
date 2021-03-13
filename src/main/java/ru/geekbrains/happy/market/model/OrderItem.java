@@ -24,7 +24,7 @@ public class OrderItem {
 
     @ManyToOne
     @JoinColumn(name = "product_id")
-    private Product product;
+    private ProductEntity productEntity;
 
     @Column(name = "quantity")
     private int quantity;
@@ -43,10 +43,10 @@ public class OrderItem {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    public OrderItem(Product product) {
-        this.product = product;
+    public OrderItem(ProductEntity productEntity) {
+        this.productEntity = productEntity;
         this.quantity = 1;
-        this.pricePerProduct = product.getPrice();
+        this.pricePerProduct = productEntity.getPrice();
         this.price = this.pricePerProduct;
     }
 
