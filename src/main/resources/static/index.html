@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+<div class="container" ng-controller="indexController">
+    <h1 class="mb-3 text-center">Happy Market</h1>
+    <div class="mb-3 text-center" ng-show="!authorized">
+        <form class="form-signin" ng-submit="tryToAuth()" style="max-width: 350px; padding: 15px; margin: 0 auto;">
+            <h1 class="h3 mb-3 font-weight-normal">Пожалуйста войдите</h1>
+            <label for="inputUsername" class="sr-only">Имя пользователя</label>
+            <input type="text" ng-model="user.username" id="inputUsername" class="form-control"
+                   placeholder="Имя пользователя" style="margin-bottom: 10px;" required="">
+            <label for="inputPassword" class="sr-only">Пароль</label>
+            <input type="password" ng-model="user.password" id="inputPassword" class="form-control" placeholder="Пароль"
+                   style="margin-bottom: 10px;" required="">
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+            <p class="mt-5 mb-3 text-muted">© GeekBrains 2021</p>
+        </form>
+
+        <form class="form-register" ng-submit="register()" style="max-width: 350px; padding: 15px; margin: 0 auto;">
+
+            <h1 class="h3 mb-3 font-weight-normal">Регистрация</h1>
+            <label for="inputUsername" class="sr-only">Придумайте имя пользователя</label>
+            <input type="text" ng-model="user.username" id="createUsername" class="form-control"
+                   placeholder="Имя пользователя" style="margin-bottom: 10px;" required="">
+            <label for="inputPassword" class="sr-only">Задайте пароль</label>
+            <input type="password" ng-model="user.password" id="createPassword" class="form-control"
+                   placeholder="Пароль"
+                   style="margin-bottom: 10px;" required="">
+            <label for="inputPassword" class="sr-only">Email</label>
+            <input type="email" ng-model="user.email" id="createEmail" class="form-control" placeholder="email"
+                   style="margin-bottom: 10px;">
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Зарегистрироваться</button>
+            <p class="mt-5 mb-3 text-muted">© GeekBrains 2021</p>
+
+        </form>
+    </div>
+    <div class="mb-3 text-center" ng-show="authorized">
+        <button class="btn btn-danger" ng-click="logout()">Выйти</button>
+    </div>
+
+    <div ng-show="authorized">
+        <h3>Фильтр</h3>
+        <form novalidate ng-submit="fillTable()">
+
+            <div class="form-group row">
+                <div class="form-group col-md-3">
+                    <label for="filterTitle">Название товара</label>
+                    <input class="form-control" type="text" ng-model="filter.title" id="filterTitle">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="filterMinPrice">Минимальная цена</label>
+                    <input class="form-control" type="number" ng-model="filter.min_price" id="filterMinPrice">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="filterMaxPrice">Максимальная цена</label>
+                    <input class="form-control" type="number" ng-model="filter.max_price" id="filterMaxPrice">
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit">Применить</button>
+            </div>
+
+        </form>
+
+        <h3>Список товаров</h3>
+        <table class="table table-hover" cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>Название</td>
+                <td>Цена</td>
+                <td></td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="p in ProductsPage.content">
+                <td>{{p.title}}</td>
+                <td>{{p.price}}</td>
+                <td>
+                    <button class="btn btn-primary" ng-click="addToCart(p.id)">Добавить в корзину</button>
+                </td>
+                <td>
+                    <button class="btn btn-danger" ng-click="deleteProductById(p.id)">Удалить товар</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li ng-class="ProductsPage.first ? 'page-item disabled' : 'page-item'">
+                    <a class="page-link" ng-click="fillTable(ProductsPage.number)">Пред.</a>
+                </li>
+                <li ng-class="ProductsPage.number == pageIndex - 1 ? 'page-item active' : 'page-item'"
+                    ng-repeat="pageIndex in PaginationArray">
+                    <a class="page-link" ng-click="fillTable(pageIndex)">{{pageIndex}}</a>
+                </li>
+
+                <li ng-class="ProductsPage.last ? 'page-item disabled' : 'page-item'">
+                    <a class="page-link" ng-click="fillTable(ProductsPage.number + 2)">След.</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h3>Корзина</h3>
+        <table class="table table-hover" cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>Название</td>
+                <td>Количество</td>
+                <td>Цена</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="oi in Cart.items">
+                <td>{{oi.productTitle}}</td>
+                <td>{{oi.quantity}}</td>
+                <td>{{oi.quantity + ' x ' + oi.pricePerProduct + ' = ' + oi.price}}</td>
+            </tr>
+            <tr>
+                <td>Итого</td>
+                <td></td>
+                <td>{{Cart.totalPrice}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <form ng-submit="createOrder()">
+            <div class="form-group row">
+                <div class="form-group col">
+                    <input class="form-control" type="text" ng-model="order.address"
+                           class="form-control" id="inputAddress" placeholder="Куда доставить заказ?">
+                </div>
+            </div>
+            <button class="btn btn-primary col-xs mx-10" ng-click="createOrder()" type="submit">Оформить заказ</button>
+        </form>
+
+        <button class="btn btn-primary col-xs mx-10" ng-click="createOrder()" type="submit">Оформить заказ</button>
+        <button class="btn btn-danger col-xs mx-10" ng-click="clearCart()">Очистить корзину</button>
+        <h3>Мои заказы</h3>
+        <table class="table table-hover" cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>ID</td>
+                <td>Имя пользователя</td>
+                <td>Цена</td>
+                <td>Адрес доставки</td>
+                <td>Дата создания</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="o in MyOrders">
+                <td>#{{o.id}}</td>
+                <td>{{o.username}}</td>
+                <td>{{o.totalPrice}}</td>
+                <td>{{o.address}}</td>
+                <td>{{o.creationDateTime}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
