@@ -40,6 +40,11 @@ public class ProductService {
         return productRepository.findAll(spec, PageRequest.of(page - 1, pageSize)).map(ProductDto::new);
     }
 
+    public Product findByTytle(String title){
+            return productRepository.findByTitle(title).map(functionEntityToSoap).get();
+    }
+
+
     public List<Product> findAll() {
         return productRepository.findAll().stream().map(functionEntityToSoap).collect(Collectors.toList());
     }

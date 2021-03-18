@@ -4,25 +4,25 @@
            targetNamespace="http://www.geekbrains.ru/spring/ws/products"
            elementFormDefault="qualified">
 
-<!--    <xs:element name="getProductByTitleRequest">-->
-<!--        <xs:complexType>-->
-<!--            <xs:sequence>-->
-<!--                <xs:element name="title" type="xs:string"/>-->
-<!--            </xs:sequence>-->
-<!--        </xs:complexType>-->
-<!--    </xs:element>-->
+    <xs:element name="getProductByTitleRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
     <xs:element name="getAllProductsRequest">
         <xs:complexType/>
     </xs:element>
 
-<!--    <xs:element name="getProductByTitleResponse">-->
-<!--        <xs:complexType>-->
-<!--            <xs:sequence>-->
-<!--                <xs:element name="product" type="tns:product"/>-->
-<!--            </xs:sequence>-->
-<!--        </xs:complexType>-->
-<!--    </xs:element>-->
+    <xs:element name="getProductByTitleResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" type="tns:product"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
     <xs:element name="getAllProductsResponse">
         <xs:complexType>

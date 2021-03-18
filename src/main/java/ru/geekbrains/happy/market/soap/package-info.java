@@ -5,5 +5,5 @@
 // Generated on: 2021.03.13 at 06:44:16 PM MSK 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.geekbrains.ru/api/products", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.geekbrains.ru/spring/ws/products", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package ru.geekbrains.happy.market.soap;
