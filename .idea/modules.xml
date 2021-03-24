@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-project.iml" filepath="$PROJECT_DIR$/cloud-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feigin-client/eureka-feigin-client.iml" filepath="$PROJECT_DIR$/eureka-feigin-client/eureka-feigin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-all-demos.iml" filepath="$PROJECT_DIR$/rabbitmq-all-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-console/rabbitmq-console.iml" filepath="$PROJECT_DIR$/rabbitmq-console/rabbitmq-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+    </modules>
+  </component>
+</project>
