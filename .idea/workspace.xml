@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cac160b-40f2-4f0e-ae93-3b7ce1a9fae1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_7_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/happy-market.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/HappyMarketApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/beans/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/configs/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/configs/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/controllers/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/CartDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/CartItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/exceptions_handling/ExceptionControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/exceptions_handling/MarketError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/exceptions_handling/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/repositories/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/repositories/specifications/ProductSpecifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/services/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/happy/market/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/testdata/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/secured.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cart_class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_confirmation/order_confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_confirmation/order_confirmation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_result/order_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_result/order_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/orders/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/orders/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/products/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/products/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/CartContollerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/HappyMarketApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/JsonTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/OrderPriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/ProductsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/RepositoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/SecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/happy/market/tests/SpyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/HappyMarketApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/beans/JwtTokenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/configs/JwtRequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/configs/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/controllers/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/controllers/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/controllers/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/controllers/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/CartDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/CartItemDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/JwtRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/JwtResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/OrderDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/OrderItemDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/dto/ProductDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/exceptions_handling/ExceptionControllerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/exceptions_handling/MarketError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/exceptions_handling/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/repositories/CartRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/repositories/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/repositories/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/repositories/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/repositories/specifications/ProductSpecifications.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/services/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/services/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/services/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/happy/market/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/CounterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/HappyMarketApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/JsonTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/ProductServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/ProductsControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/RepositoriesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/SecurityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/geekbrains/happy/market/tests/SpyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/ru/geekbarins/cloud/project/discovery/DiscoveryApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-service/src/main/java/ru/geekbrains/cloud/project/front/service/FrontApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-service/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-service/src/main/resources/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/ru/geekbrains/cloud/project/product/servise/Model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/ru/geekbrains/cloud/project/product/servise/ProductMicroserviceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/ru/geekbrains/cloud/project/product/servise/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/ru/geekbrains/cloud/project/product/servise/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/ru/geekbrains/cloud/project/product/servise/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/db/migration/V1__init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-service/src/main/java/ru/geekbrains/project/proxy/service/ProxyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-service/src/main/resources/application.yaml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\FlameXander\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mCiPUlbr1IrNjs07XdjuaPe3zF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\resources\db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.happy.market.tests" />
+      <recent name="ru.geekbrains.happy.market" />
+      <recent name="ru.geekbrains.happy.market.dto" />
+      <recent name="ru.geekbrains.happy.market.repositories" />
+      <recent name="ru.geekbrains.happy.market.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\resources\db\testdata" />
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\resources" />
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\resources\static" />
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\java\ru\geekbrains\happy\market\configs" />
+      <recent name="C:\Users\FlameXander\Desktop\happy-market\src\main\java\ru\geekbrains\happy\market\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CartContollerTest">
+    <configuration name="CartContollerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="happy-market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.happy.market.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.happy.market.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.happy.market.tests.CartContollerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartContollerTest.productAddCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="happy-market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.happy.market.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.happy.market.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.happy.market.tests.CartContollerTest" />
+      <option name="METHOD_NAME" value="productAddCartTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="happy-market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.happy.market.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.happy.market.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.happy.market.tests.OrderPriceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="happy-market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.happy.market.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.happy.market.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.happy.market.tests.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.testGetProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="happy-market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.happy.market.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.happy.market.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.happy.market.tests.ProductServiceTest" />
+      <option name="METHOD_NAME" value="testGetProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HappyMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="happy-market" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.happy.market.HappyMarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductServiceTest" />
+      <item itemvalue="JUnit.ProductServiceTest.testGetProduct" />
+      <item itemvalue="JUnit.OrderPriceTest" />
+      <item itemvalue="Spring Boot.HappyMarketApplication" />
+      <item itemvalue="JUnit.CartContollerTest" />
+      <item itemvalue="JUnit.CartContollerTest.productAddCartTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CartContollerTest" />
+        <item itemvalue="JUnit.CartContollerTest.productAddCartTest" />
+        <item itemvalue="JUnit.OrderPriceTest" />
+        <item itemvalue="JUnit.ProductServiceTest.testGetProduct" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cac160b-40f2-4f0e-ae93-3b7ce1a9fae1" name="Default Changelist" comment="" />
+      <created>1609003949841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609003949841</updated>
+      <workItem from="1609003950871" duration="6631000" />
+      <workItem from="1609273118950" duration="604000" />
+      <workItem from="1609844260185" duration="8000" />
+      <workItem from="1610484004993" duration="705000" />
+      <workItem from="1610554270417" duration="10000" />
+      <workItem from="1610556887612" duration="9071000" />
+      <workItem from="1610709065771" duration="1523000" />
+      <workItem from="1610794907477" duration="50000" />
+      <workItem from="1610818309082" duration="6308000" />
+      <workItem from="1610880123352" duration="9000" />
+      <workItem from="1611078605000" duration="2743000" />
+      <workItem from="1611129287507" duration="5000" />
+      <workItem from="1611162706359" duration="624000" />
+      <workItem from="1611424561790" duration="717000" />
+      <workItem from="1611425739767" duration="1943000" />
+      <workItem from="1611427707500" duration="30000" />
+      <workItem from="1611427745671" duration="116000" />
+      <workItem from="1611428496123" duration="10000" />
+      <workItem from="1611921093939" duration="2477000" />
+      <workItem from="1612025260330" duration="6707000" />
+      <workItem from="1612384682035" duration="1207000" />
+      <workItem from="1612435226719" duration="30000" />
+      <workItem from="1612550481537" duration="612000" />
+      <workItem from="1612624002291" duration="8036000" />
+      <workItem from="1612645480331" duration="1682000" />
+      <workItem from="1612780083760" duration="1534000" />
+      <workItem from="1612794598129" duration="1520000" />
+      <workItem from="1613035639543" duration="611000" />
+      <workItem from="1613223216033" duration="6638000" />
+      <workItem from="1613254466831" duration="599000" />
+      <workItem from="1613293728867" duration="260000" />
+      <workItem from="1613295095686" duration="57000" />
+      <workItem from="1613300884971" duration="172000" />
+      <workItem from="1613500317857" duration="1611000" />
+      <workItem from="1613506097147" duration="655000" />
+      <workItem from="1613667621551" duration="300000" />
+      <workItem from="1614289995188" duration="1539000" />
+      <workItem from="1614363233551" duration="614000" />
+      <workItem from="1614444017005" duration="2201000" />
+      <workItem from="1615042905649" duration="4427000" />
+      <workItem from="1615642253310" duration="5446000" />
+      <workItem from="1616176244413" duration="7851000" />
+      <workItem from="1616231959929" duration="707000" />
+      <workItem from="1616234654002" duration="3374000" />
+      <workItem from="1616247693308" duration="14904000" />
+      <workItem from="1617112533681" duration="351000" />
+      <workItem from="1617113002359" duration="7604000" />
+      <workItem from="1617270998933" duration="2160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1617112831728">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2469" y="167" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1617112831728" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1617272831567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617272831567" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1617272831566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617272831566" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1617272831566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617272831566" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1617272831567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617272831567" />
+    <state width="1877" height="194" key="GridCell.Tab.1.bottom" timestamp="1617130644247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617130644247" />
+    <state width="1877" height="194" key="GridCell.Tab.1.center" timestamp="1617130644246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617130644246" />
+    <state width="1877" height="194" key="GridCell.Tab.1.left" timestamp="1617130644246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617130644246" />
+    <state width="1877" height="194" key="GridCell.Tab.1.right" timestamp="1617130644247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1617130644247" />
+  </component>
+</project>
